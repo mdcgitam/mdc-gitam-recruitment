@@ -1,0 +1,206 @@
+.wa-section{
+    padding-bottom:8rem;
+    background:none;
+    position:relative;
+    z-index:1;
+}
+
+#contact{
+    margin-top:-5%;
+}
+
+.carousel-wrapper{
+    background:none;
+    position:relative;
+    display:flex;
+    align-items:center;
+    margin-bottom:4rem;
+    overflow:hidden;
+    width:100%;
+}
+
+.eb-carousel{
+    width:100%;
+    padding:20px;
+    background:none;
+    overflow:hidden;
+    position:relative;
+}
+
+.eb-carousel-track{
+    background:none;
+    display:flex;
+    gap:1.5rem;
+    width:max-content;
+    animation:scroll-carousel 30s linear infinite;
+}
+
+.eb-carousel-track:hover{
+    animation-play-state:paused;
+}
+
+@keyframes scroll-carousel{
+    0%{transform:translateX(0);}
+    100%{transform:translateX(calc(-50% - 0.75rem));}
+}
+
+.eb-card{
+    min-width:260px;
+    flex-shrink:0;
+    text-align:center;
+    padding:2.5rem 1.5rem;
+    transition:all .4s cubic-bezier(.175,.885,.32,1.275);
+    background:rgba(255,255,255,.98);
+    backdrop-filter:blur(10px);
+    border:1px solid rgba(255,255,255,1);
+    border-radius:1.5rem;
+    box-shadow:0 10px 40px rgba(37,99,235,.15);
+    position:relative;
+    overflow:hidden;
+}
+
+.eb-card:hover{
+    transform:translateY(-12px) scale(1.02);
+    border-color:rgba(37,99,235,.4);
+    box-shadow:0 20px 40px rgba(37,99,235,.25);
+    background:#f9fafb;
+}
+
+.eb-img-wrapper{
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    overflow:hidden;
+    margin:0 auto 1.5rem;
+}
+.ebname{
+    font-weight: 500;
+    font-size: larger;
+}
+
+.eb-img-wrapper img{
+    width:100%;
+    height:100%;
+    object-fit:cover
+    ;
+    object-position:center;
+}
+
+.eb-role{
+    font-size:.9rem;
+    font-weight:600;
+    letter-spacing:.5px;
+    text-transform:uppercase;
+    opacity:.9;
+}
+
+.Des{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:6px;
+    margin-top:6px;
+}
+
+.deslin{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    background:#0a66c2;
+    color:white;
+    padding:6px 10px;
+    border-radius:6px;
+    font-weight:500;
+    margin-top:6px;
+    text-decoration:none;
+}
+
+.wa-card{
+    max-width:800px;
+    margin:0 auto;
+    padding:4rem 2rem;
+    position:relative;
+    overflow:hidden;
+    border-color:rgba(37,211,102,.3);
+}
+
+.mt-4{
+    margin-top:4rem;
+}
+
+.wa-icon-wrapper{
+    color:#25D366;
+    margin-bottom:2rem;
+    display:inline-block;
+    background:rgba(37,211,102,.1);
+    padding:1.5rem;
+    border-radius:50%;
+    box-shadow:0 0 30px rgba(37,211,102,.2);
+}
+
+.wa-title{
+    font-size:2.5rem;
+    margin-bottom:1rem;
+}
+
+.wa-desc{
+    font-size:1.125rem;
+    max-width:600px;
+    margin:0 auto 2.5rem;
+    line-height:1.6;
+}
+
+.wa-btn{
+    background:#25D366;
+    border:none;
+    box-shadow:0 4px 20px rgba(37,211,102,.4);
+}
+
+.wa-btn:hover{
+    background:#128C7E;
+}
+
+@media(max-width:768px){
+
+.eb-card{
+    min-width:240px;
+    padding:2rem 1.25rem;
+}
+
+.eb-img-wrapper{
+    width:110px;
+    height:110px;
+}
+
+.wa-title{
+    font-size:2rem;
+}
+
+}
+.icon{
+   margin-right: 5%;
+   background-color: #e4e1e1;
+   padding: 8px;
+   border-radius: 30%;
+   cursor: pointer;
+   color: #4c06fd;
+}
+.iconbox {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.iconbox a {
+  display: inline-flex;
+}
+
+.icon {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.icon:hover {
+  transform: scale(1.15);
+}
