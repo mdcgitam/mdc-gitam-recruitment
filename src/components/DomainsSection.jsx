@@ -8,19 +8,19 @@ const domainsData = {
             title: "WebArcs",
             desc: "Learn to build responsive websites and web applications.",
             skills: ["HTML", "CSS", "JavaScript", "React"],
-            formUrl: "https://docs.google.com/forms/d/placeholder-web"
+            formUrl: "https://forms.gle/YAKH6VA3Nt834Jpr7"
         },
         {
             title: "DataVerse",
             desc: "Explore basics of data analysis and machine learning.",
             skills: ["Python", "Pandas", "NumPy", "Machine Learning"],
-            formUrl: "https://docs.google.com/forms/d/placeholder-ai"
+            formUrl: "https://forms.gle/t9enfKjAaw5pnfpd8"
         },
         {
             title: "Competitive Programming",
             desc: "Improve problem-solving and coding skills through practice.",
             skills: ["C++", "Java", "Python", "DSA"],
-            formUrl: "https://docs.google.com/forms/d/placeholder-cp"
+            formUrl: "https://forms.gle/q6ne7GvefSk4xaxQ6"
         }
     ],
     Creative: [
@@ -28,25 +28,25 @@ const domainsData = {
             title: "Design",
             desc: "Create user-friendly designs and interfaces.",
             skills: ["Figma", "UI Design", "Canva"],
-            formUrl: "https://docs.google.com/forms/d/placeholder-design"
+            formUrl: "https://forms.gle/HNUZLfiai5WgWoZp8"
         },
         {
             title: "Content",
             desc: "Write and manage content for social media and events.",
             skills: ["Content Writing", "Copywriting", "Branding"],
-            formUrl: "https://docs.google.com/forms/d/placeholder-content"
+            formUrl: "https://forms.gle/SMWLE1ECTFW5JGnW9"
         },
         {
             title: "Public Relations",
             desc: "Handle communication, outreach, and public engagement.",
             skills: ["Communication", "Event Promotion", "Networking"],
-            formUrl: "https://docs.google.com/forms/d/placeholder-pr"
+            formUrl: "https://forms.gle/k8VoTnoM3ttXY3Fh6"
         },
         {
             title: "Photography",
             desc: "Capture and edit photos for events and promotions.",
             skills: ["Photography", "Editing", "Video Editing"],
-            formUrl: "https://docs.google.com/forms/d/placeholder-photo"
+            formUrl: "https://forms.gle/Ht26wszAQLjrHBPg7"
         }
     ],
 };
