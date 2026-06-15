@@ -11,16 +11,16 @@ import SNEHAL from '../assets/SNEHAL.jpg';
 
 const ebMembers = [
   {
-    name: "Nitish Raj Vinnakota",
+    name: "Mohan Tanuj Ponasanapalli",
     role: "President",
     image: NITISH,
     lin: "https://www.linkedin.com/in/vnr-nitish/",
-    email: "nvinnako2@gitam.in",
-    phone: "6304003099"
+    email: "mponasan@gitam.in",
+    phone: "9347344965"
   },
   {
-    name: "Gagan Rachakonda",
-    role: "Vice President",
+    name: "Hasini Dandu",
+    role: "hdandu2@gitam.in",
     image: GAGAN,
     lin: "https://www.linkedin.com/in/gaganrachakonda/",
     email: "grachako2@gitam.in",
