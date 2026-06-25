@@ -2,61 +2,61 @@ import React from 'react';
 import { MessageCircle, Mail, Linkedin, Phone } from 'lucide-react';
 import './WhatsAppSection.css';
 
-import ISHITA from '../assets/ISHITA.jpg';
-import GAGAN from '../assets/GAGAN.jpg';
-import NITISH from '../assets/NITISH.jpeg';
-import NANDAN from '../assets/NANDAN.JPG';
-import SRAVANI from '../assets/SRAVANI.jpg';
-import SNEHAL from '../assets/SNEHAL.jpg';
+import Akash from "../assets/Akash.png";
+import Hasini from "../assets/Hasini.jpg";
+import Tanuj from "../assets/Tanuj.jpeg";
+import Srinivas from "../assets/Srinivas.jpg";
+import Likhita from "../assets/Likhita.jpg";
+import Tanishq from "../assets/Tanishq.jpeg";
 
 const ebMembers = [
   {
-    name: "Mohan Tanuj Ponasanapalli",
+    name: "Mohan Tanuj",
     role: "President",
-    image: NITISH,
-    lin: "https://www.linkedin.com/in/vnr-nitish/",
+    image: Tanuj,
+    lin: "https://www.linkedin.com/in/vnr-Tanuj/",
     email: "mponasan@gitam.in",
     phone: "9347344965"
   },
   {
-    name: "Hasini Dandu",
-    role: "hdandu2@gitam.in",
-    image: GAGAN,
-    lin: "https://www.linkedin.com/in/gaganrachakonda/",
-    email: "grachako2@gitam.in",
-    phone: "8978082388"
+    name: "Hasini",
+    role: "Vice President",
+    image: Hasini,
+    lin: "https://www.linkedin.com/in/hasini-dandu",
+    email: "hdandu2@gitam.in",
+    phone: "6305327994"
   },
   {
-    name: "Ishita Gupta",
+    name: "Akash Kishan",
     role: "Technical Head",
-    image: ISHITA,
-    lin: "https://www.linkedin.com/in/ishitagupta0811/",
-    email: "igupta@gitam.in",
-    phone: "7205640451"
+    image: Akash,
+    lin: "http://www.linkedin.com/in/akashkishankarri",
+    email: "akarri4@gitam.in",
+    phone: "8374849797"
   },
   {
-    name: "Sravani Kalisetty",
+    name: "Likhita",
     role: "Creative Head",
-    image: SRAVANI,
-    lin: "https://www.linkedin.com/in/sravani-kalisetty-090730293/",
-    email: "skaliset@gitam.in",
-    phone: "8919424414"
+    image: Likhita,
+    lin: "https://www.linkedin.com/in/likhita-mannem/",
+    email: "lmannem@student.gitam.edu",
+    phone: "9849497687"
   },
   {
-    name: "Snehal Andavarapu",
+    name: "Tanishq",
     role: "Secretary",
-    image: SNEHAL,
-    lin: "https://www.linkedin.com/in/snehal-andavarapu-83b3b5293/",
+    image: Tanishq,
+    lin: "https://www.linkedin.com/in/tanishqkundrapu",
     email: "sandavar@gitam.in",
-    phone: "8917562924"
+    phone: "9652177526"
   },
   {
-    name: "Jothisk Nandan Palla",
+    name: "Srinivas",
     role: "Head of Operations",
-    image: NANDAN,
-    lin: "https://www.linkedin.com/in/palla-jothisk-nandan/",
+    image: Srinivas,
+    lin: "https://www.linkedin.com/in/srinivaskatragaddak",
     email: "jpalla2@gitam.in",
-    phone: "6304110542"
+    phone: "6302655976"
   }
 ];
 
@@ -95,7 +95,7 @@ const WhatsAppSection = () => {
                   <div className='iconbox'>
 
                     {member.email && (
-                      <a  href={`https://mail.google.com/mail/?view=cm&fs=1&to=${member.email}`}>
+                      <a href={`https://mail.google.com/mail/?view=cm&fs=1&to=${member.email}`}>
                         <Mail className='icon' size={35} />
                       </a>
                     )}
