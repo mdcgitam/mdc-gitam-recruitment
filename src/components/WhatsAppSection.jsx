@@ -31,7 +31,7 @@ const ebMembers = [
     role: "Secretary",
     image: Tanishq,
     lin: "https://www.linkedin.com/in/tanishqkundrapu",
-    email: "sandavar@gitam.in",
+    email: "tkundrap@student.gitam.edu",
     phone: "9652177526"
   },
   {
@@ -39,7 +39,7 @@ const ebMembers = [
     role: "Head of Operations",
     image: Srinivas,
     lin: "https://www.linkedin.com/in/srinivaskatragaddak",
-    email: "jpalla2@gitam.in",
+    email: "skatrag1@student.gitam.edu",
     phone: "6302655976"
   },
   {
