@@ -27,22 +27,6 @@ const ebMembers = [
     phone: "6305327994"
   },
   {
-    name: "Akash Kishan",
-    role: "Technical Head",
-    image: Akash,
-    lin: "http://www.linkedin.com/in/akashkishankarri",
-    email: "akarri4@gitam.in",
-    phone: "8374849797"
-  },
-  {
-    name: "Likhita",
-    role: "Creative Head",
-    image: Likhita,
-    lin: "https://www.linkedin.com/in/likhita-mannem/",
-    email: "lmannem@student.gitam.edu",
-    phone: "9849497687"
-  },
-  {
     name: "Tanishq",
     role: "Secretary",
     image: Tanishq,
@@ -57,6 +41,22 @@ const ebMembers = [
     lin: "https://www.linkedin.com/in/srinivaskatragaddak",
     email: "jpalla2@gitam.in",
     phone: "6302655976"
+  },
+  {
+    name: "Akash Kishan",
+    role: "Technical Head",
+    image: Akash,
+    lin: "http://www.linkedin.com/in/akashkishankarri",
+    email: "akarri4@gitam.in",
+    phone: "8374849797"
+  },
+  {
+    name: "Likhita",
+    role: "Creative Head",
+    image: Likhita,
+    lin: "https://www.linkedin.com/in/likhita-mannem/",
+    email: "lmannem@student.gitam.edu",
+    phone: "9849497687"
   }
 ];
 
