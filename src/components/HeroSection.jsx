@@ -20,7 +20,7 @@ const HeroSection = () => {
                             behavior="scroll"
                             className="hero-marquee"
                             >
-                            Recruitment are open for the Academic year 26-27
+                            Recruitments are open for the Academic year 26-27
                         </marquee>
                     </div>
 
