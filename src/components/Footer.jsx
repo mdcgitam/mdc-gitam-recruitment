@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Github, Linkedin, Instagram, Twitter } from 'lucide-react';
+import { Mail, Github, Linkedin, Instagram, Twitter, Globe } from 'lucide-react';
 import './Footer.css';
 
 const Footer = () => {
@@ -23,7 +23,7 @@ const Footer = () => {
                             <p><a href='#domains'>Domains</a></p>
                             <p><a href='#process'>Process</a></p>
                             <p>
-                            <a href='#domains'>Apply Now</a>
+                                <a href='#domains'>Apply Now</a>
                             </p>
                         </div>
                     </div>
@@ -32,17 +32,23 @@ const Footer = () => {
                         <a href="mailto:mdc_vsp@gitam.in" className="contact-link">
                             <Mail size={18} /> mdc_vsp@gitam.in
                         </a>
-                    <div className="footer-socials">
-                        <h4>Follow Us</h4>
-                        <div className="social-icons">
-                            <a href="https://www.linkedin.com/company/meta-developer-communities/posts/?feedView=all" className="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
-                                <Linkedin size={20} />
-                            </a>
-                            <a href="https://www.instagram.com/mdc_gitam/" className="social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
-                                <Instagram size={20} />
+                        <div className="footer-socials">
+                            <h4>Follow Us</h4>
+                            <div className="social-icons">
+                                <a href="https://www.linkedin.com/company/meta-developer-communities/posts/?feedView=all" className="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                                    <Linkedin size={20} />
+                                </a>
+                                <a href="https://www.instagram.com/mdc_gitam/" className="social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                                    <Instagram size={20} />
+                                </a>
+                            </div>
+                        </div>
+                        <div className="View our Official Site">
+                            <h4>View our Official Site</h4>
+                            <a href="https://mdcgitam.in/" className="contact-link" target="_blank" rel="noopener noreferrer">
+                                <Globe size={18} /> mdcgitam.in
                             </a>
                         </div>
-                    </div>
                     </div>
                 </div>
 
