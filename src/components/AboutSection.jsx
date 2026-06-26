@@ -55,6 +55,11 @@ const AboutSection = () => {
                         ))}
                     </div>
                 </div>
+                <h3 className="section-subtitle">
+                    <a href="https://mdcgitam.in/" target="_blank" rel="noopener noreferrer">
+                        Hey! Want to know more about us? Click me.
+                    </a>
+                </h3>
             </div>
         </section>
     );
