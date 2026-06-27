@@ -31,7 +31,11 @@ const ebMembers = [
     role: "Secretary",
     image: Tanishq,
     lin: "https://www.linkedin.com/in/tanishqkundrapu",
+<<<<<<< HEAD
     email: "tkundrap@student.gitam.edu",
+=======
+    email: "sandavar@gitam.in",
+>>>>>>> 81cee05 (Added the deadline)
     phone: "9652177526"
   },
   {
@@ -39,7 +43,11 @@ const ebMembers = [
     role: "Head of Operations",
     image: Srinivas,
     lin: "https://www.linkedin.com/in/srinivaskatragaddak",
+<<<<<<< HEAD
     email: "skatrag1@student.gitam.edu",
+=======
+    email: "jpalla2@gitam.in",
+>>>>>>> 81cee05 (Added the deadline)
     phone: "6302655976"
   },
   {
@@ -57,7 +65,11 @@ const ebMembers = [
     lin: "https://www.linkedin.com/in/likhita-mannem/",
     email: "lmannem@student.gitam.edu",
     phone: "9849497687"
+<<<<<<< HEAD
   }
+=======
+  },
+>>>>>>> 81cee05 (Added the deadline)
 ];
 
 const duplicatedMembers = [...ebMembers, ...ebMembers];

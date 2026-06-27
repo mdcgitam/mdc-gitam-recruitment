@@ -19,8 +19,13 @@ const HeroSection = () => {
                             direction="left"
                             behavior="scroll"
                             className="hero-marquee"
+<<<<<<< HEAD
                             >
                             Recruitments are open for the Academic year 26-27
+=======
+                        >
+                            Recruitment are open for the Academic year 26-27
+>>>>>>> 81cee05 (Added the deadline)
                         </marquee>
                     </div>
 
@@ -38,10 +43,21 @@ const HeroSection = () => {
                             Apply Now <ChevronRight size={20} />
                         </a>
                     </div>
+<<<<<<< HEAD
+=======
+                    <div></div>
+                    <div className="hero-image delay-4">
+                        <h3 className="deadline-box">!! Please Note That the Last Date for Submittiing the Applications is <strong>8th July 2026</strong> !!</h3>
+                    </div>
+>>>>>>> 81cee05 (Added the deadline)
                 </div>
             </div>
         </section>
     );
 };
 
+<<<<<<< HEAD
 export default HeroSection;
+=======
+export default HeroSection;
+>>>>>>> 81cee05 (Added the deadline)

@@ -120,6 +120,18 @@
     font-size: 1.1rem;
 }
 
+
+.deadline-box {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 24px;
+    background: #fff3cd;
+    color: #b45309;
+    border: 1px solid #facc15;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
 @keyframes pulse {
     0% {
         box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.4);
