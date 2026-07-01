@@ -21,7 +21,7 @@ const domainsData = {
         {
             title: "Competitive Programming",
             desc: "Improve problem-solving and coding skills through practice.",
-            skills: ["C++", "Java", "Python", "DSA"],
+            skills: ["C", "C++", "Java", "Python", "DSA"],
             formUrl: "https://forms.gle/q6ne7GvefSk4xaxQ6",
             descp: "Want to become a better problem solver? Learn different approaches to solving coding problems, optimize your solutions, strengthen your logical thinking for coding interviews and contests."
         }
