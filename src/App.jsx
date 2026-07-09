@@ -7,23 +7,27 @@ import DomainsSection from './components/DomainsSection';
 import ProcessSection from './components/ProcessSection';
 import WhatsAppSection from './components/WhatsAppSection';
 import Footer from './components/Footer';
+import RegistrationsClosed from './components/RegistrationsClosed';
 
-// function App() {
-//   return (
-//     <div className="app-container">
-//       <Navbar />
-//       <main>
-//         <HeroSection />
-//         <AboutSection />
-//         <WhyJoinSection />
-//         <DomainsSection />
-//         <ProcessSection />
-//         <WhatsAppSection />
-//       </main>
-//       <Footer />
-//     </div>
-//   );
-// }
+import { Routes, Route } from "react-router-dom";
+
+function Home() {
+  return (
+    <>
+      <Navbar />
+      <main>
+        <HeroSection />
+        <AboutSection />
+        <WhyJoinSection />
+        <DomainsSection />
+        <ProcessSection />
+        <WhatsAppSection />
+      </main>
+      <Footer />
+    </>
+  );
+}
+
 function App() {
   return <RegistrationsClosed />;
 }
