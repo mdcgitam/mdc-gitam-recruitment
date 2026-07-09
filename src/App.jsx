@@ -8,21 +8,26 @@ import ProcessSection from './components/ProcessSection';
 import WhatsAppSection from './components/WhatsAppSection';
 import Footer from './components/Footer';
 
+// function App() {
+//   return (
+//     <div className="app-container">
+//       <Navbar />
+//       <main>
+//         <HeroSection />
+//         <AboutSection />
+//         <WhyJoinSection />
+//         <DomainsSection />
+//         <ProcessSection />
+//         <WhatsAppSection />
+//       </main>
+//       <Footer />
+//     </div>
+//   );
+// }
 function App() {
-  return (
-    <div className="app-container">
-      <Navbar />
-      <main>
-        <HeroSection />
-        <AboutSection />
-        <WhyJoinSection />
-        <DomainsSection />
-        <ProcessSection />
-        <WhatsAppSection />
-      </main>
-      <Footer />
-    </div>
-  );
+  return <RegistrationsClosed />;
 }
+
+export default App;
 
 export default App;
