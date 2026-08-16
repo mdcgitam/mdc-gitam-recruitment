@@ -20,7 +20,7 @@ const HeroSection = () => {
                             behavior="scroll"
                             className="hero-marquee"
                         >
-                            Recruitment are open for the Academic year 26-27
+                            Pocket Recruitment are open for the Academic year 26-27
                         </marquee>
                     </div>
 
@@ -40,7 +40,11 @@ const HeroSection = () => {
                     </div>
                     <div></div>
                     <div className="hero-image delay-4">
-                        <h3 className="deadline-box"> Please Note That the Last Date for Submittiing the Applications is <strong>8th July 2026</strong></h3>
+                        <h3 className="deadline-box">Pocket Recruitments are now Open for All years</h3>
+                    </div>
+
+                    <div className="hero-image delay-4">
+                        <h3 className="deadline-box"> Please Note That the Last Date for Submittiing the Applications for Pocket Recruitment is <strong>27th August 2026 11:59 PM</strong></h3>
                     </div>
                 </div>
             </div>

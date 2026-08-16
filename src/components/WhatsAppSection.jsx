@@ -1,30 +1,30 @@
 import React from 'react';
-import { MessageCircle, Mail, Linkedin, Phone } from 'lucide-react';
+import { MessageCircle, Mail, Linkedin, Phone, LucideHeartHandshake } from 'lucide-react';
 import './WhatsAppSection.css';
 
 import Akash from "../assets/Akash.png";
 import Hasini from "../assets/Hasini.jpg";
-import Tanuj from "../assets/Tanuj.jpeg";
+import Harsha from "../assets/Harsha.jpg";
 import Srinivas from "../assets/Srinivas.jpg";
 import Likhita from "../assets/Likhita.jpg";
 import Tanishq from "../assets/Tanishq.jpeg";
 
 const ebMembers = [
   {
-    name: "Mohan Tanuj",
+    name: "Hasini Dandu",
     role: "President",
-    image: Tanuj,
-    lin: "https://www.linkedin.com/in/vnr-Tanuj/",
-    email: "mponasan@gitam.in",
-    phone: "9347344965"
-  },
-  {
-    name: "Hasini",
-    role: "Vice President",
     image: Hasini,
     lin: "https://www.linkedin.com/in/hasini-dandu",
     email: "hdandu2@gitam.in",
     phone: "6305327994"
+  },
+  {
+    name: "Akash Kishan",
+    role: "Vice President",
+    image: Akash,
+    lin: "http://www.linkedin.com/in/akashkishankarri",
+    email: "akarri4@gitam.in",
+    phone: "8374849797"
   },
   {
     name: "Tanishq",
@@ -43,12 +43,12 @@ const ebMembers = [
     phone: "6302655976"
   },
   {
-    name: "Akash Kishan",
+    name: "Harsha",
     role: "Technical Head",
-    image: Akash,
-    lin: "http://www.linkedin.com/in/akashkishankarri",
-    email: "akarri4@gitam.in",
-    phone: "8374849797"
+    image: Harsha,
+    lin: "https://www.linkedin.com/in/harsha-aki/",
+    email: "saki@gitam.in",
+    phone: "7780610391"
   },
   {
     name: "Likhita",

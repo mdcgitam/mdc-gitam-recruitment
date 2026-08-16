@@ -7,11 +7,8 @@ import DomainsSection from './components/DomainsSection';
 import ProcessSection from './components/ProcessSection';
 import WhatsAppSection from './components/WhatsAppSection';
 import Footer from './components/Footer';
-import RegistrationsClosed from './components/RegistrationsClosed';
 
-import { Routes, Route } from "react-router-dom";
-
-function Home() {
+function App() {
   return (
     <>
       <Navbar />
@@ -27,9 +24,4 @@ function Home() {
     </>
   );
 }
-
-function App() {
-  return <RegistrationsClosed />;
-}
-
 export default App;
