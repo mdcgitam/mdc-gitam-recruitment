@@ -1,0 +1,52 @@
+.closed-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0d1117;
+    padding: 20px;
+}
+
+.closed-card {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    padding: 50px 35px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
+.closed-icon {
+    color: #ff5c5c;
+    margin-bottom: 20px;
+}
+
+.closed-card h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.closed-card p {
+    color: #c9d1d9;
+    font-size: 1.05rem;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 28px;
+    background: #2563eb;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background: #1d4ed8;
+}

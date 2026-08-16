@@ -7,10 +7,13 @@ import DomainsSection from './components/DomainsSection';
 import ProcessSection from './components/ProcessSection';
 import WhatsAppSection from './components/WhatsAppSection';
 import Footer from './components/Footer';
+import RegistrationsClosed from './components/RegistrationsClosed';
 
-function App() {
+import { Routes, Route } from "react-router-dom";
+
+function Home() {
   return (
-    <div className="app-container">
+    <>
       <Navbar />
       <main>
         <HeroSection />
@@ -21,8 +24,12 @@ function App() {
         <WhatsAppSection />
       </main>
       <Footer />
-    </div>
+    </>
   );
+}
+
+function App() {
+  return <RegistrationsClosed />;
 }
 
 export default App;
