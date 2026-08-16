@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <main>
+      <main className="space-y-20">
         <HeroSection />
         <AboutSection />
         <WhyJoinSection />

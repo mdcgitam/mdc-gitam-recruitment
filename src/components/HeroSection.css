@@ -84,6 +84,10 @@
     letter-spacing: -1px;
 }
 
+.hero-section {
+  margin-bottom: 5rem; /* adjust as needed */
+}
+
 .hero-subtitle {
     font-size: 1.25rem;
     color: var(--text-secondary);

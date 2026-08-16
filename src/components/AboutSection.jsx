@@ -55,6 +55,7 @@ const AboutSection = () => {
                         ))}
                     </div>
                 </div>
+                <div style={{ height: '5rem' }} />
                 <h3 className="section-subtitle">
                     <a href="https://mdcgitam.in/" target="_blank" rel="noopener noreferrer">
                         Hey! Want to know more about us? Click me.
