@@ -12,20 +12,13 @@ const HeroSection = () => {
 
             <div className="container hero-container">
                 <div className="hero-content animate-fade-in-up">
-                    <div className="badge delay-1 marquee-container">
+                    <div className="badge delay-1">
                         <span className="badge-dot"></span>
-                        <marquee
-                            scrollAmount="6"
-                            direction="left"
-                            behavior="scroll"
-                            className="hero-marquee"
-                        >
-                            Pocket Recruitment are open for the Academic year 26-27
-                        </marquee>
+                        <span>Pocket Recruitments open for Academic Year 2026-27</span>
                     </div>
 
                     <h1 className="hero-title delay-2">
-                        <span className="hero-title">Meta Developer Communities</span>
+                        <span>Meta Developer Communities</span>
                     </h1>
 
                     <p className="hero-subtitle delay-3">
@@ -38,13 +31,23 @@ const HeroSection = () => {
                             Apply Now <ChevronRight size={20} />
                         </a>
                     </div>
-                    <div></div>
-                    <div className="hero-image delay-4">
-                        <h3 className="deadline-box">Pocket Recruitments are now Open for All years</h3>
-                    </div>
 
-                    <div className="hero-image delay-4">
-                        <h3 className="deadline-box"> Please Note That the Last Date for Submittiing the Applications for Pocket Recruitment is <strong>27th August 2026 11:59 PM</strong></h3>
+                    <div className="hero-spotlight delay-4">
+                        <p className="spotlight-label">Pocket Recruitment Window</p>
+                        <div className="spotlight-grid">
+                            <div className="spotlight-item">
+                                <span className="spotlight-key">Open For</span>
+                                <p className="spotlight-value">All years and all domains</p>
+                            </div>
+                            <div className="spotlight-item">
+                                <span className="spotlight-key">Deadline</span>
+                                <p className="spotlight-value">27th August 2026, 11:59:59 PM </p>
+                            </div>
+                            <div className="spotlight-item spotlight-note">
+                                <span className="spotlight-key">Heads Up</span>
+                                <p className="spotlight-value">Recruitment procedure starts after examinations , so no worries in Applying 😉</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

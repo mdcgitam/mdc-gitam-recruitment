@@ -26,6 +26,10 @@ html {
   scroll-behavior: smooth;
 }
 
+section[id] {
+  scroll-margin-top: calc(var(--navbar-height) + 1rem);
+}
+
 body {
   font-family: var(--font-body);
   background-color: var(--bg-primary);
