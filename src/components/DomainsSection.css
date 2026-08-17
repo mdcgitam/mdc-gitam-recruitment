@@ -54,13 +54,13 @@
 
 .domains-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     animation: fade-in 0.5s ease-out;
 }
 
 .domains-grid.creative-grid {
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
 }
 
 @keyframes fade-in {
