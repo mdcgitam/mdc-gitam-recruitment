@@ -2,15 +2,20 @@ import React, { useState } from 'react';
 import { ExternalLink, Code2, Palette, Megaphone } from 'lucide-react';
 import './DomainsSection.css';
 
-const OPEN_RECRUITMENT_FORM = 'https://forms.gle/YAKH6VA3Nt834Jpr7';
+const OPEN_RECRUITMENT_FORM_WebArc = 'https://forms.gle/YAKH6VA3Nt834Jpr7';
+const OPEN_RECRUITMENT_FORM_CP = 'https://forms.gle/5S2tXJ4rCB2awHUE7';
+const OPEN_RECRUITMENT_FORM_Design = 'https://forms.gle/FNMezw1qLPdfpKjs7';
+const OPEN_RECRUITMENT_FORM_Content = 'https://forms.gle/YtmCVFHbW5CyL1oz8';
+const OPEN_RECRUITMENT_FORM_Photography = 'https://forms.gle/fSt6kqDyK6jjuD7DA';
+const OPEN_RECRUITMENT_FORM_PR = 'https://forms.gle/N4PEwWsZffPRuiVc9';
 
 const domainsData = {
     Technical: [
         {
-            title: "WebArcs",
+            title: "WebArc",
             desc: "Learn to build responsive websites and web applications.",
             skills: ["HTML", "CSS", "JavaScript", "React"],
-            formUrl: OPEN_RECRUITMENT_FORM,
+            formUrl: OPEN_RECRUITMENT_FORM_WebArc,
             descp: "Interested in exploring how modern websites are built? Get hands-on exposure to HTML, CSS, JavaScript, React, and responsive web development while contributing to real web-based projects."
         },
         // {
@@ -25,7 +30,7 @@ const domainsData = {
             title: "Competitive Programming",
             desc: "Improve problem-solving and coding skills through practice.",
             skills: ["C++", "Java", "Python", "DSA"],
-            formUrl: OPEN_RECRUITMENT_FORM,
+            formUrl: OPEN_RECRUITMENT_FORM_CP,
             descp: "Want to become a better problem solver? Learn different approaches to solving coding problems, optimize your solutions, strengthen your logical thinking for coding interviews and contests."
         }
     ],
@@ -34,28 +39,28 @@ const domainsData = {
             title: "Design",
             desc: "Create user-friendly designs and interfaces.",
             skills: ["Figma", "UI Design", "Canva"],
-            formUrl: OPEN_RECRUITMENT_FORM,
+            formUrl: OPEN_RECRUITMENT_FORM_Design,
             descp: "Bring ideas to life through visuals. Design posters, certificates and social media creatives using tools like Canva, Figma and other design platforms."
         },
         {
             title: "Content",
             desc: "Write and manage content for social media and events.",
             skills: ["Content Writing", "Copywriting", "Branding"],
-            formUrl: OPEN_RECRUITMENT_FORM,
+            formUrl: OPEN_RECRUITMENT_FORM_Content,
             descp: "Have a flair for writing and communication? Create emails, reports, social media content, and event communications for platforms like Instagram, WhatsApp, and LinkedIn while sharpening your content creation skills."
         },
         {
             title: "Public Relations",
             desc: "Handle communication, outreach, and public engagement.",
             skills: ["Communication", "Event Promotion", "Networking"],
-            formUrl: OPEN_RECRUITMENT_FORM,
+            formUrl: OPEN_RECRUITMENT_FORM_PR,
             descp: "Be the voice of MDC. Manage our presence across Instagram, LinkedIn, and WhatsApp, promote events through online and offline outreach, and build meaningful connections with students across the campus."
         },
         {
             title: "Photography",
             desc: "Capture and edit photos for events and promotions.",
             skills: ["Photography", "Editing", "Video Editing"],
-            formUrl: OPEN_RECRUITMENT_FORM,
+            formUrl: OPEN_RECRUITMENT_FORM_Photography,
             descp: "Capture moments that tell a story. Explore event photography, videography, and editing while documenting MDC's journey through creative visuals and engaging videos."
         }
     ],

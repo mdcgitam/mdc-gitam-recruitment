@@ -37,7 +37,7 @@ const HeroSection = () => {
                         <div className="spotlight-grid">
                             <div className="spotlight-item">
                                 <span className="spotlight-key">Open For</span>
-                                <p className="spotlight-value">All years and all domains</p>
+                                <p className="spotlight-value">All years are welcome to apply</p>
                             </div>
                             <div className="spotlight-item">
                                 <span className="spotlight-key">Deadline</span>
